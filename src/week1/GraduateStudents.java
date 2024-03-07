@@ -28,6 +28,14 @@ public class GraduateStudents extends Student{
         this.supervisorName = supervisorName;
     }
 
+    @Override
+    public String toString() {
+        return "GraduateStudents{" +
+                "thesis='" + thesis + '\'' +
+                ", supervisorName='" + supervisorName + '\'' +
+                '}';
+    }
+
     public static void main(String[] args) {
         GraduateStudents graduateStudents = (GraduateStudents)(new Student("Man", 32, "Male", "Beginners"));
 
