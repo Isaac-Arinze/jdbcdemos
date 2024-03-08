@@ -3,7 +3,7 @@ package week4;
 
 import java.sql.*;
 
-public class JDBCDemo2{
+public class JDBCDemo3{
 
     //    Create a connection string
     private static final String url = "jdbc:mysql://127.0.0.1:3306/programmers";
@@ -23,24 +23,19 @@ public class JDBCDemo2{
         try {
             Connection connection = DriverManager.getConnection(url, username, password);
             Statement statement = connection.createStatement();
-            String query = String.format("INSERT INTO Engineers(name, age, marks) VALUES(%s, %o, %f)", "Blessing", 23, 64.9);
+//            String query = String.format("UPDATE Engineers SET marks = %s WHERE id = %d", 100,  8); update command
+            String query = String.format("DELETE Engineers WHERE id = 2" )
             //String query = "Select * from Engineers";  - select table from database
-            ResultSet resultSet = statement.executeQuery(query);
+            int rowsAffected = statement.executeUpdate(query);
 
-
-            for (; resultSet.next();){
-                int id = resultSet.getInt("id");
-                String name = resultSet.getString("name");
-                int age = resultSet.getInt("age");
-                double marks = resultSet.getDouble("marks");
-                System.out.println("ID: " + id);
-                System.out.println("NAME " + name);
-                System.out.println("AGE: " + age);
-                System.out.println("marks " + marks);
-            }
+            if (rowsAffected>0){
+                System.out.println("Data successfully deleted");
+//                System.out.println("data updated successfully");
+            }else {
+                System.out.println("Data Not Deleted");
+            } 
 
         }catch (SQLException e) {
-            System.out.println(e.getMessage());
 
         }
 
