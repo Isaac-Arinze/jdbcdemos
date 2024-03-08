@@ -19,8 +19,8 @@ public class JDBCDemo3 {
             System.out.println(exception.getMessage());
 
 //            exception.printStackTrace();
-        }
-        ;
+        };
+
         try {
             Connection connection = DriverManager.getConnection(url, username, password);
             String query = "INSERT INTO Engineers (name, age, marks) VALUES (?, ?, ?)"; // ADDING A Placeholder
@@ -28,22 +28,21 @@ public class JDBCDemo3 {
 //            String query = String.format("UPDATE Engineers SET marks = %s WHERE id = %d", 100,  8); update command
             //String query = "Select * from Engineers";  - select table from database
             PreparedStatement preparedStatement = connection.prepareStatement(query);
-            preparedStatement.setString(1, "Johnbull");
-            preparedStatement.setInt(2, 25);
-            preparedStatement.setDouble(3, 89.96);
+            preparedStatement.setInt(1, 1);
+//            preparedStatement.setInt(2, 25);
+//            preparedStatement.setDouble(3, 89.96);
+//
+//            preparedStatement.setString(1, "james");
+//            preparedStatement.setInt(2, 12);
+//            preparedStatement.setDouble(3, 49.98);
 
-            preparedStatement.setString(1, "james");
-            preparedStatement.setInt(2, 12);
-            preparedStatement.setDouble(3, 49.98);
-
-
-            int rowsAffected = preparedStatement.executeUpdate();
-            if (rowsAffected > 0) {
-                System.out.println("Data inserted succefully");
-//                System.out.println("data updated successfully");
-            } else {
-                System.out.println("Data Not Inserted successfully");
-            }
+//            int rowsAffected = preparedStatement.executeUpdate();
+//            if (rowsAffected > 0) {
+//                System.out.println("Data inserted succefully");
+////                System.out.println("data updated successfully");
+//            } else {
+//                System.out.println("Data Not Inserted successfully");
+//            }
         } catch (SQLException e) {
 
         }
