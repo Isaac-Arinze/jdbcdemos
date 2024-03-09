@@ -22,6 +22,7 @@ public class JDBCDemo5 {
             Connection connection = DriverManager.getConnection(url, username, password);
             String query = String.format("INSERT INTO Engineers (name, age, marks) VALUES (?, ?, ?)");
             PreparedStatement preparedStatement = connection.prepareStatement(query);
+//            PreparedStatement preparedStatement = connection.prepareStatement(query);
 //            Statement statement = connection.createStatement();
             Scanner scanner = new Scanner(System.in);
             while (true){
