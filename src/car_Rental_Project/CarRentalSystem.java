@@ -80,7 +80,7 @@ public class CarRentalSystem {
                         System.out.println(car.getCarId() + " - " + car.getBrand() + " - " + car.getModel());
                     }
                 }
-                System.out.println("\n Enter the car you want to rent: ");
+                System.out.println("\n Enter the car ID you want to rent: ");
                 String carId = scanner.nextLine();
 
                 System.out.println("Enter the number of days for rental: ");
@@ -105,7 +105,7 @@ public class CarRentalSystem {
                     System.out.println("Customer Name: " + newCustomer.getName());
                     System.out.println("Car " + selectedCar.getBrand() + " " + selectedCar.getModel());
                     System.out.println("Rental Days: " + rentalDays);
-                    System.out.println("Total price: N%.2f%n" + totalPrice);
+                    System.out.printf("Total price: N%.2f%n", totalPrice);
 
                     System.out.println("\n Confirm rental (Y/N): ");
                     String confirm = scanner.nextLine();
