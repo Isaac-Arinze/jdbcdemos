@@ -1,0 +1,16 @@
+
+f	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜í¤×
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íùÎ£
+b
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµþÿÿÿÿ
+L
+java:S6437"6Revoke and change this password, as it is compromised.(‡ÂÍþ
+V	java:S125"<This block of commented-out lines of code should be removed.(¸„Žçúÿÿÿÿ
+V	java:S125!"<This block of commented-out lines of code should be removed.(üÁÏ®øÿÿÿÿ
+V	java:S125%"<This block of commented-out lines of code should be removed.(Èýÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(…ø¹ðøÿÿÿÿ
+g
+java:S34572"Q%n should be used in place of \n to produce the platform-specific line separator.(¯Ñ¬ü
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(¯Ñ¬ü
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(©þêÜúÿÿÿÿ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(ñ·¤¬

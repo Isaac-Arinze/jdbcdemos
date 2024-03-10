@@ -8,7 +8,7 @@ public class Car {
     private double basePricePerDay;
     private boolean isAvailable;
 
-    public Car(String carId, String brand, String model, double basePricePerDay, boolean isAvailable) {
+    public Car(String carId, String brand, String model, double basePricePerDay) {
         this.carId = carId;
         this.brand = brand;
         this.model = model;

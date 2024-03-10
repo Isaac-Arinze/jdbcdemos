@@ -68,7 +68,6 @@ public class JdbcAccountDemo {
                     return true;
                 }
             }
-
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }

@@ -8,7 +8,7 @@ public class Vehicle {
     }
 }
 
-class Car extends Vehicle{
+class Cars extends Vehicle{
     private int numberOfSeats;
 
     public int getNumberOfSeats() {

@@ -3,11 +3,11 @@ package week3;
 public class VehicleMain {
 
     public static void main(String[] args) {
-        Car car = new Car();
-        car.brand = "BMW";
-        car.setNumberOfSeats(6);
+        Cars cars = new Cars();
+        cars.brand = "BMW";
+        cars.setNumberOfSeats(6);
 
-        System.out.println(car);
+        System.out.println(cars);
 
         MotorCycle motorcycle = new MotorCycle();
         motorcycle.brand = "Honda";

@@ -1,0 +1,12 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íùÎ£
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(üë”¡
+V	java:S125"<This block of commented-out lines of code should be removed.(®ê×¤ýÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(©þêÜúÿÿÿÿ
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+Z
+java:S1128"DRemove this unused import 'java.awt.geom.IllegalPathStateException'.(ºë‘™
+I
+java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å

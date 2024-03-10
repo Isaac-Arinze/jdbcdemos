@@ -1,0 +1,39 @@
+
+P
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íùÎ£
+U
+java:S1118":Add a private constructor to hide the implicit public one.(§Ÿà­øÿÿÿÿ
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(í²ûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.( ®ğÜ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ø÷
+
+y
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ß•Äøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ñ·¤¬
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿìıüÿÿÿÿ
+t
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+S	java:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+M	java:S106!"9Replace this use of System.out or System.err by a logger.(´İ²"
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(ñ·¤¬
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(…—£ÿÿÿÿÿ
+M	java:S106*"9Replace this use of System.out or System.err by a logger.(ø÷
+
+y
+java:S2142-"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ß•Äøÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(ñ·¤¬
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(¬œùëøÿÿÿÿ
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(ä§ğ§
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(©—ç¸ùÿÿÿÿ
+y
+java:S2142>"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ß•Äøÿÿÿÿ
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(Æ…°†ÿÿÿÿÿ
+l
+java:S3457:"Q%n should be used in place of \n to produce the platform-specific line separator.(”åîıÿÿÿÿ
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(”åîıÿÿÿÿ
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(§ºÎÎøÿÿÿÿ
+N	java:S106="9Replace this use of System.out or System.err by a logger.(úîŞê
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(ñ·¤¬
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(ñ·¤¬
